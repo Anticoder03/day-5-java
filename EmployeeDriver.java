@@ -7,9 +7,9 @@ public class EmployeeDriver {
 		
 		e1.setId(101);
 		e1.setName("Ashish");
-		e1.setSallary(20000.00);
+		e1.setSalary(20000.00);
 		e1.setAge(20);
-		e1.setPost("Full Stack Devloper");
+		e1.setPost("Full Stack Developer");
 		
 		System.out.println("Before any changes: ");
 		e1.getEmployee();
@@ -31,10 +31,10 @@ public class EmployeeDriver {
 		
 	}
 	private static void test_Employee(Employee e) {
-		e.setSallary(25000.00);
+		e.setSalary(25000.00);
 	}
 	private static void ChangeToSD(Employee e){
-		e.setPost("Software Devloper");
-		e.setSallary(30000.00);
+		e.setPost("Software Developer");
+		e.setSalary(30000.00);
 	}
 }

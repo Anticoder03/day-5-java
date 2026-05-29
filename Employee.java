@@ -3,7 +3,7 @@ package day5;
 public class Employee {
 	private int id;
 	private String name;
-	private double sallary;
+	private double salary;
 	private int age;
 	private String post;
 	
@@ -30,12 +30,12 @@ public class Employee {
 		this.name = name;
 	}
 
-	public double getSallary() {
-		return sallary;
+	public double getSalary() {
+		return salary;
 	}
 
-	public void setSallary(double sallary) {
-		this.sallary = sallary;
+	public void setSalary(double salary) {
+		this.salary = salary;
 	}
 
 	public int getAge() {
@@ -60,10 +60,10 @@ public class Employee {
 		
 	}
 	
-	public  Employee(int id,String name,double sallary,int age, String post) {
+	public  Employee(int id,String name,double salary,int age, String post) {
 		this.id = id;
 		this.name = name;
-		this.sallary = sallary;
+		this.salary = salary;
 		this.age = age;
 		this.post = post;
 	}
@@ -74,7 +74,7 @@ public class Employee {
 	public void getEmployee() {
 		System.out.println("Id: " + this.id);
 		System.out.println("Name: " + this.name);
-		System.out.println("Sallary: " + this.sallary);
+		System.out.println("Salary: " + this.salary);
 		System.out.println("Age: " + this.age);
 		System.out.println("Post: " + this.post);
 	}
